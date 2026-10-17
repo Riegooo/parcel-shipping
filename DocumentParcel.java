@@ -16,7 +16,7 @@ public class DocumentParcel extends Parcel{
 
     @Override 
     public double computeFee() {
-        double fee =  getWeightKg() * 40;
+        double fee = getWeightKg() * 40;
 
         if (express) {
             fee += 100;
